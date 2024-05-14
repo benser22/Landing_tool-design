@@ -3,10 +3,21 @@ import data from '../../data.json';
 function Hero() {
   return (
     <section id="home">
-      <div className="pt-32 flex flex-col items-center justify-start space-y-2">
-        <h1 className="text-center w-[90vw] sm:w-4/5 lg:w-2/3 text-2xl sm:text-4xl font-bold lg:leading-[2.5rem] tracking-[0.05em]">
-          Titulo
-        </h1>
+      <div className="py-20 flex flex-col items-center justify-start space-y-2 bg-hero-pattern bg-cover w-screen">
+        <div className="text-center w-[90vw] sm:w-4/5 lg:w-2/3 text-white sm:mt-8">
+          <p className="text-2xl sm:text-[2.8rem] font-bold">
+            {data['section-hero'].title}
+          </p>
+          <p className="text-2xl sm:text-6xl font-bold sm:mt-4">
+            {data['section-hero'].title2}
+          </p>
+          <p className="text-md sm:text-xl sm:w-2/3 mx-auto sm:mt-8 font-thin">
+            {data['section-hero'].subtitle}
+          </p>
+          <button className="bg-blue-gray_Custom p-2 px-6 mt-8 rounded-md active:text-white transition-all shadow-blue-light_Custom shadow-sm active:shadow-none">
+            {data['section-hero'].button}
+          </button>
+        </div>
       </div>
     </section>
   );

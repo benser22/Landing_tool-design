@@ -15,13 +15,15 @@ const MenuMobile = ({ isOpen, onClick }) => {
         items-start text-white bg-fucsia_Custom shadow-md shadow-white`}
       >
         <div className="flex flex-col gap-4 py-4">
-          <a href="/" className="w-12 flex items-center gap-2">
+          <a href="/" className="w-8 flex items-center ml-4">
             <img
               src={data.logo.url}
               alt={data.logo.alt}
               className="w-2/3 cursor-pointer mr-2"
             ></img>
-            <p className="hover:text-amber_Custom">{data.logo.text}</p>
+            <p className="hover:text-amber_Custom text-xl font-bold">
+              {data.logo.text}
+            </p>
           </a>
           <hr className="w-[50vw]"></hr>
         </div>
@@ -55,6 +57,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
               src={data['section-header'].blog.icon}
               alt={data['section-header'].blog.alt}
               className="w-[26px] h-[26px]"
+              style={{ filter: 'invert(1)' }}
             />
             <p className="font-bold"> {data['section-header'].blog.text}</p>
           </a>

@@ -12,56 +12,88 @@
         "id": 2,
         "text": "Products",
         "href": "products",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714063165/drone_landing/mobile-icons/products.png",
+        "icon": "/icons/products.png",
         "alt": "icon products"
       },
       {
         "id": 3,
-        "text": "Explore",
-        "href": "explore",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114244/drone_landing/mobile-icons/explore-icon.png",
-        "alt": "icon why"
+        "text": "Solutions",
+        "href": "solutions",
+        "icon": "/icons/solutions.png",
+        "alt": "icon solutions"
       },
       {
         "id": 6,
-        "text": "Project",
-        "href": "project",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114846/drone_landing/mobile-icons/projects.png",
-        "alt": "icon project"
+        "text": "Resources",
+        "href": "resources",
+        "icon": "/icons/resources.png",
+        "alt": "icon resources"
       },
       {
         "id": 4,
-        "text": "Future",
-        "href": "future",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/future.png",
-        "alt": "icon future"
+        "text": "Pricing",
+        "href": "pricing",
+        "icon": "/icons/pricings.png",
+        "alt": "icon pricing"
       },
       {
         "id": 5,
-        "text": "Accessories",
-        "href": "accessories",
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114243/drone_landing/mobile-icons/accesories-icon.png",
-        "alt": "icon accessories"
+        "text": "Project",
+        "href": "project",
+        "icon": "/icons/project.png",
+        "alt": "icon project"
       }
     ],
     "contact": {
       "id": 7,
       "text": "Contact Us",
       "href": "contact",
-      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/contac-us.png",
+      "icon": "/icons/contact.png",
       "alt": "icon contact"
     },
     "blog": {
       "id": 8,
       "text": "Blog",
       "href": "https://www.blogger.com/",
-      "icon": "escribir.png",
+      "icon": "/icons/blog.png",
       "alt": "icon blog"
     },
     "button": {}
   },
-  "section-hero": {},
-
+  "section-hero": {
+    "bg": { "url": "bgHero.png", "alt": "bg hero" },
+    "title": "Technology design tools",
+    "title2": "for engineers and hobbyists",
+    "subtitle": "Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris.",
+    "button": "Request Demo"
+  },
+  "section-slider": [
+    {
+      "id": 1,
+      "url": "/logos/Logo-colored.png",
+      "alt": "logo1 image"
+    },
+    {
+      "id": 2,
+      "url": "/logos/Logo-colored (1).png",
+      "alt": "logo2 image"
+    },
+    {
+      "id": 3,
+      "url": "/logos/Logo-colored (2).png",
+      "alt": "logo3 image"
+    },
+    {
+      "id": 4,
+      "url": "/logos/Logo-colored (3).png",
+      "alt": "logo4 image"
+    },
+    {
+      "id": 5,
+      "url": "/logos/Logo-colored (4).png",
+      "alt": "logo4 image"
+    }
+  ],
   "section-explore": {},
   "section-overview": {},
   "section-future": {},
@@ -71,7 +103,7 @@
   "logo": {
     "url": "Logo.png",
     "alt": "logo image",
-    "text": "TextoLogo"
+    "text": "protech"
   },
   "logo-color": {
     "url": "Logo-color.png",

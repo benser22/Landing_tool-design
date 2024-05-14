@@ -13,6 +13,9 @@ export default {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
       },
+      backgroundImage: {
+        'hero-pattern': "url('/bgHero.png')",
+      },
     },
   },
   plugins: [require('daisyui')],
