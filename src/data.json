@@ -1,85 +1,88 @@
 {
   "section-header": {
-    "logo": {
-      "image": {
-        "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714206350/ia_landing/logos/logo.png",
-        "alt": "logo image"
-      },
-      "logo-button": "We’re Hiring"
-    },
-    "dropdow-icon": {
-      "url": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714207472/ia_landing/dropdown.png",
-      "alt": "icon drop"
-    },
-    "links": [
+    "navbar": [
       {
         "id": 1,
-        "title": "user cases",
-        "href": "cases",
-        "isDropdown": true,
-        "items": [
-          { "id": 1, "text": "about", "link": "about", "external": false },
-          { "id": 2, "text": "future", "link": "future", "external": false },
-          {
-            "id": 3,
-            "text": "testimonials",
-            "link": "testimonials",
-            "external": false
-          }
-        ],
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714255278/ia_landing/mobile%20icons/flrxfwem7muuxdrjukjo.png",
-        "alt": "user-cases icon"
+        "text": "Home",
+        "href": "home",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114243/drone_landing/mobile-icons/home-icon.png",
+        "alt": "icon home"
       },
       {
         "id": 2,
-        "title": "resources",
-        "href": "resources",
-        "isDropdown": true,
-        "items": [
-          { "id": 1, "text": "how", "link": "how", "external": false },
-          { "id": 2, "text": "start now", "link": "last", "external": false },
-          { "id": 3, "text": "resource 2", "link": "", "external": false }
-        ],
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714254371/ia_landing/mobile%20icons/cy2zvnuwnvw4tzpjuhny.png",
-        "alt": "icon resources"
+        "text": "Products",
+        "href": "products",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714063165/drone_landing/mobile-icons/products.png",
+        "alt": "icon products"
       },
       {
         "id": 3,
-        "title": "weekly demos",
-        "href": "demos",
-        "external": false,
-        "isDropdown": false,
-        "items": ["", "", ""],
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714254371/ia_landing/mobile%20icons/ledbltcxpajnrui7qaci.png",
-        "alt": "icon demos"
+        "text": "Explore",
+        "href": "explore",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114244/drone_landing/mobile-icons/explore-icon.png",
+        "alt": "icon why"
+      },
+      {
+        "id": 6,
+        "text": "Project",
+        "href": "project",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114846/drone_landing/mobile-icons/projects.png",
+        "alt": "icon project"
       },
       {
         "id": 4,
-        "title": "pricing",
-        "href": "last",
-        "isDropdown": false,
-        "external": false,
-        "items": ["", "", ""],
-        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714254371/ia_landing/mobile%20icons/npdt3odrgjp3bfbr9bpg.png",
-        "alt": "icon pricing"
+        "text": "Future",
+        "href": "future",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/future.png",
+        "alt": "icon future"
+      },
+      {
+        "id": 5,
+        "text": "Accessories",
+        "href": "accessories",
+        "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714114243/drone_landing/mobile-icons/accesories-icon.png",
+        "alt": "icon accessories"
       }
     ],
-    "login": "Login",
-    "login-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714255278/ia_landing/mobile%20icons/wrrsytxf19dnx6ofzob8.png",
-    "login-button": "Get Started",
-    "login-button-icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714255277/ia_landing/mobile%20icons/af67ngppd7qdg6su1hjk.png"
+    "contact": {
+      "id": 7,
+      "text": "Contact Us",
+      "href": "contact",
+      "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714059955/drone_landing/mobile-icons/contac-us.png",
+      "alt": "icon contact"
+    },
+    "blog": {
+      "id": 8,
+      "text": "Blog",
+      "href": "https://aeroautonomyinnovations.blog.sistemasvirtuales.net/",
+      "icon": "escribir.png",
+      "alt": "icon blog"
+    },
+    "button": {}
   },
   "section-hero": {},
-  "section-slider": {},
-  "section-about": {},
-  "section-features": {},
-  "section-say": {},
-  "section-testimonials": {},
-  "section-how": {},
+
+  "section-explore": {},
+  "section-overview": {},
+  "section-future": {},
   "section-last": {},
+  "section-contact": {},
   "section-footer": {},
-  "logo-white": {},
-  "copywrite": "© 2022 copy ai, Inc",
-  "privacy": { "text": "Privacy Notice", "url": "" },
-  "terms": { "text": "Terms of service", "url": "" }
+  "logo": {
+    "url": "LogoBlanco.svg",
+    "alt": "logo image"
+  },
+  "logo-color": {
+    "url": "LogoNegro.svg",
+    "alt": "logo image"
+  },
+  "contact": {
+    "email": "tool-design@gmail.com"
+  },
+  "blog": {
+    "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714111452/drone_landing/blog/blog-icon.png",
+    "title": "Blog",
+    "text": "Visit our blog!",
+    "url": "https://aeroautonomyinnovations.blog.sistemasvirtuales.net/"
+  }
 }
