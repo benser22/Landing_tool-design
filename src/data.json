@@ -54,7 +54,7 @@
     "blog": {
       "id": 8,
       "text": "Blog",
-      "href": "https://aeroautonomyinnovations.blog.sistemasvirtuales.net/",
+      "href": "https://www.blogger.com/",
       "icon": "escribir.png",
       "alt": "icon blog"
     },
@@ -69,12 +69,14 @@
   "section-contact": {},
   "section-footer": {},
   "logo": {
-    "url": "LogoBlanco.svg",
-    "alt": "logo image"
+    "url": "Logo.png",
+    "alt": "logo image",
+    "text": "TextoLogo"
   },
   "logo-color": {
-    "url": "LogoNegro.svg",
-    "alt": "logo image"
+    "url": "Logo-color.png",
+    "alt": "logo image",
+    "text": "TextoLogo"
   },
   "contact": {
     "email": "tool-design@gmail.com"
@@ -83,6 +85,6 @@
     "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714111452/drone_landing/blog/blog-icon.png",
     "title": "Blog",
     "text": "Visit our blog!",
-    "url": "https://aeroautonomyinnovations.blog.sistemasvirtuales.net/"
+    "url": "https://www.blogger.com/"
   }
 }

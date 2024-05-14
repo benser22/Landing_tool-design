@@ -9,15 +9,16 @@ const Navbar = () => {
   return (
     <header
       className={`fixed z-[98] top-0 left-0 w-full px-8 sm:px-16 py-2 flex justify-between items-center h-[78px] text-white
-      bg-black shadow-sm`}
+      bg-fucsia_Custom shadow-sm`}
     >
       <div className="flex items-center justify-between w-full">
-        <a href="/">
+        <a href="/" className="w-12 flex items-center gap-2">
           <img
-            src={data['logo-color'].url}
-            alt={data['logo-color'].alt}
+            src={data.logo.url}
+            alt={data.logo.alt}
             className="w-2/3 cursor-pointer mr-2"
           ></img>
+          <p className="hover:text-amber_Custom">{data.logo.text}</p>
         </a>
         <div className="hidden sm:flex items-center justify-between space-x-6 sm:space-x-3 md:space-x-6">
           {data['section-header'].navbar.map((item, index) => (
@@ -31,7 +32,7 @@ const Navbar = () => {
               className=" cursor-pointer"
             >
               <p
-                className="text-md  hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max"
+                className="text-md  hover:text-amber_Custom sm:text-[12px] lg:text-[16px] w-max"
                 key={item.id}
               >
                 {item.text}
@@ -44,12 +45,12 @@ const Navbar = () => {
             target="_blank"
             className=" cursor-pointer"
           >
-            <p className="text-md  hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max">
+            <p className="text-md  hover:text-amber_Custom sm:text-[12px] lg:text-[16px] w-max">
               {data['section-header'].blog.text}
             </p>
           </a>
           <a href={`mailto:${data.contact.email}`} className=" cursor-pointer">
-            <p className="text-md  hover:text-green-custom sm:text-[12px] lg:text-[16px] w-max">
+            <p className="text-md  hover:text-amber_Custom sm:text-[12px] lg:text-[16px] w-max">
               {data['section-header'].contact.text}
             </p>
           </a>

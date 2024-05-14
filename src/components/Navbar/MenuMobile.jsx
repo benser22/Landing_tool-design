@@ -12,18 +12,18 @@ const MenuMobile = ({ isOpen, onClick }) => {
     >
       <ul
         className={`fixed left-0 top-0 px-4 py-5 h-screen w-[60vw] flex flex-col gap-4 
-        items-start text-white bg-black shadow-md shadow-white`}
+        items-start text-white bg-fucsia_Custom shadow-md shadow-white`}
       >
-        <div className="flex">
-          <a href="/">
+        <div className="flex flex-col gap-4 py-4">
+          <a href="/" className="w-12 flex items-center gap-2">
             <img
-              src={data['logo-color'].url}
-              alt={data['logo-color'].alt}
-              className="h-[36px] cursor-pointer mx-auto mt-4"
-              style={{ filter: 'invert(1)' }}
-            />
-            <hr className="mt-6 w-[50vw]"></hr>
+              src={data.logo.url}
+              alt={data.logo.alt}
+              className="w-2/3 cursor-pointer mr-2"
+            ></img>
+            <p className="hover:text-amber_Custom">{data.logo.text}</p>
           </a>
+          <hr className="w-[50vw]"></hr>
         </div>
         <div className="ml-[2vw] flex flex-col items-left justify-between gap-12 mt-6 w-full">
           {data['section-header'].navbar.map((item, index) => (
