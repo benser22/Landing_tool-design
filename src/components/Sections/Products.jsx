@@ -21,7 +21,7 @@ function Products() {
             <p className="font-bold text-xl sm:text-3xl sm:mb-4 ShadowText">
               {data['section-products'].title}
             </p>
-            <p className="text-[14px] sm:text-md ShadowText sm:leading-8">
+            <p className="text-[14px] sm:text-md ShadowText sm:leading-8 font-[500]">
               {data['section-products'].paragraph}
             </p>
           </div>

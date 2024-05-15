@@ -6,6 +6,7 @@ import SliderComponent from './components/Sections/SliderComponent';
 import Products from './components/Sections/Products';
 import Solutions from './components/Sections/Solutions';
 import Demo from './components/Sections/Demo';
+import Resources from './components/Sections/Resources';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Products />
         <Solutions />
         <Demo />
+        <Resources />
       </Layout>
       <Footer />
     </main>

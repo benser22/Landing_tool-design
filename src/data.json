@@ -112,7 +112,34 @@
     "subtitle": "Turpis purus, imperdiet integer amet, eu.",
     "button": "Request Demo"
   },
-  "section-last": {},
+  "section-resources": {
+    "title": "Get your business to grow fast",
+    "subtitle": "Aliquet id quam amet, augue netus tristique elementum eros urna. Dignissim nisl mauris cras feugiat congue at euismod donec.Lectus interdum nibh laoreet nunc bibendum volutpat.",
+    "image": { "url": "/resources/image.png", "alt": "image screen" },
+    "row": [
+      {
+        "id": 1,
+        "title": "Nisl arcu nunc",
+        "subtitle": "Dui consectetur gravida platea ut dis diam. Enim morbi proin auctor et.",
+        "icon": "/resources/Icon1.png",
+        "alt": "icon image"
+      },
+      {
+        "id": 2,
+        "title": "Dui scelerisque",
+        "subtitle": "Et sit duis vestibulum proin. Sollicitudin velit, etiam a feugiat sagittis.",
+        "icon": "/resources/Icon2.png",
+        "alt": "icon image"
+      },
+      {
+        "id": 3,
+        "title": "Ac proin at",
+        "subtitle": "Elit purus magna donec mattis amet, leo varius sed. Ut metus sed convallis.",
+        "icon": "/resources/Icon3.png",
+        "alt": "icon image"
+      }
+    ]
+  },
   "section-contact": {},
   "section-footer": {},
   "logo": {
