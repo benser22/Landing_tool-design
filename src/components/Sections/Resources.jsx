@@ -6,7 +6,7 @@ function Resources() {
       <div className="py-12 w-full mx-auto">
         <div className="flex flex-col justify-center items-center mx-auto px-8">
           <div className="text-center sm:max-w-[50vw]">
-            <p className="font-bold text-xl sm:text-3xl sm:mb-4 ShadowText">
+            <p className="font-bold text-xl sm:text-4xl sm:mb-4 ShadowText">
               {data['section-resources'].title}
             </p>
             <p className="text-[14px] sm:text-md ShadowText sm:leading-8 font-[500]">

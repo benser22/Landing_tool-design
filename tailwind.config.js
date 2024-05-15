@@ -18,6 +18,10 @@ export default {
         'hero-pattern': "url('/bgHero.png')",
         'products-pattern': "url('/bgProducts.png')",
       },
+      screens: {
+        break: '472px',
+        break2: '640px',
+      },
     },
   },
   plugins: [require('daisyui')],

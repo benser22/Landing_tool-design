@@ -18,7 +18,7 @@ function Products() {
             />
           </div>
           <div className="text-center sm:text-start sm:max-w-[30vw]">
-            <p className="font-bold text-xl sm:text-3xl sm:mb-4 ShadowText">
+            <p className="font-bold text-xl sm:text-4xl sm:mb-4 ShadowText">
               {data['section-products'].title}
             </p>
             <p className="text-[14px] sm:text-md ShadowText sm:leading-8 font-[500]">

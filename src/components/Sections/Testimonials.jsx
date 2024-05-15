@@ -57,7 +57,7 @@ const Testimonials = () => {
             <img
               src={data['section-testimonials'].bg.url}
               alt={data['section-testimonials'].bg.alt}
-              className="hidden lg:block absolute right-24 -top-10 max-w-[300px] h-96 object-cover overflow-visible"
+              className="hidden lg:block absolute right-24 -top-10 max-w-[300px] h-96 object-cover overflow-x-visible"
             />
             <Slider
               {...settings}

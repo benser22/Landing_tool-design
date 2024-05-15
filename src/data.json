@@ -40,7 +40,7 @@
         "id": 6,
         "text": "Posts",
         "href": "posts",
-        "icon": "/icons/about.png",
+        "icon": "/icons/posts.png",
         "alt": "icon posts"
       },
       {
@@ -195,6 +195,54 @@
     "alt": "logo image",
     "text": "protech"
   },
+  "section-posts": {
+    "title": "The features you were looking for",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Pellentesque turpis vestibulum",
+        "paragraph": "Ullamcorper enim, diam eros sed et vitae sit. Platea porttitor consequat, lorem in arcu et.",
+        "image": { "url": "/posts/picture.webp", "alt": "post img" },
+        "link": "https://www.blogger.com/"
+      },
+      {
+        "id": 2,
+        "title": "Tincidunt quisque",
+        "paragraph": "Blandit ut tortor non, imperdiet. Morbi quam facilisis a nec tortor.",
+        "image": { "url": "/posts/picture2.webp", "alt": "post img" },
+        "link": "https://www.blogger.com/"
+      },
+      {
+        "id": 3,
+        "title": "Tincidunt magna diam",
+        "paragraph": "Massa mi pharetra viverra risus ornare sit. Viverra tortor, nulla et tellus, nunc.",
+        "image": { "url": "/posts/picture3.webp", "alt": "post img" },
+        "link": "https://www.blogger.com/"
+      },
+      {
+        "id": 4,
+        "title": "Purus habitasse",
+        "paragraph": "Massa arcu ut id risus et. Neque mauris sagittis cursus tincidunt egestas faucibus amet adipiscing scelerisque.",
+        "image": { "url": "/posts/picture4.webp", "alt": "post img" },
+        "link": "https://www.blogger.com/"
+      },
+      {
+        "id": 5,
+        "title": "Dictum elementum",
+        "paragraph": "Ullamcorper aliquam maecenas sapien sapien tempus tincidunt urna tempus. Dignissim ut felis a dui a massa risus.",
+        "image": { "url": "/posts/picture5.webp", "alt": "post img" },
+        "link": "https://www.blogger.com/"
+      },
+      {
+        "id": 6,
+        "title": "Semper vulputate ut",
+        "paragraph": "Tortor arcu eget nisi neque, in nunc metus. Posuere in egestas pharetra euismod commodo vitae consectetur.",
+        "image": { "url": "/posts/picture6.webp", "alt": "post img" },
+        "link": "https://www.blogger.com/"
+      }
+    ]
+  },
+
   "logo-color": {
     "url": "Logo-color.png",
     "alt": "logo image",

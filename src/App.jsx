@@ -8,6 +8,7 @@ import Solutions from './components/Sections/Solutions';
 import Demo from './components/Sections/Demo';
 import Resources from './components/Sections/Resources';
 import Testimonials from './components/Sections/Testimonials';
+import Posts from './components/Sections/Posts';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Demo />
         <Resources />
         <Testimonials />
-        <Resources />
+        <Posts />
       </Layout>
       <Footer />
     </main>

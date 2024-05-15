@@ -6,7 +6,7 @@ function Solutions() {
       <section id="solutions">
         <div className="flex flex-col sm:flex-row items-center justify-center sm:gap-12 p-4 w-full">
           <div className="text-center sm:text-start sm:max-w-[30vw]">
-            <p className="font-bold text-xl sm:text-3xl sm:mb-4 ShadowText">
+            <p className="font-bold text-xl sm:text-4xl sm:mb-4 ShadowText">
               {data['section-solutions'].title}
             </p>
             <p className="text-[14px] sm:text-md ShadowText sm:leading-8 font-[500]">
