@@ -94,7 +94,12 @@
       "alt": "logo4 image"
     }
   ],
-  "section-explore": {},
+  "section-products": {
+    "pic1": { "url": "/products/pic1.jpg", "alt": "image 1" },
+    "pic2": { "url": "/products/pic2.jpg", "alt": "image 2" },
+    "title": "Efficient collaboration",
+    "paragraph": "Mauris consequat, cursus pharetra et, habitasse rhoncus quis odio ac. In et dolor eu donec maecenas nulla. Cum sed orci, sit pellentesque quisque feugiat cras ullamcorper."
+  },
   "section-overview": {},
   "section-future": {},
   "section-last": {},

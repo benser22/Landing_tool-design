@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import useNav from '../../hooks/useNav';
 import MenuMobile from './MenuMobile';
 import data from '../../data.json';
@@ -6,10 +7,34 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const { isOpen, handleIsOpen } = useNav();
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <header
-      className={`fixed z-[98] top-0 left-0 w-full px-8 md:px-10 py-2 flex justify-between items-center h-[78px] text-white
-      bg-fucsia_Custom shadow-sm`}
+      className={`fixed z-[98] top-0 left-0 w-screen px-8 md:px-10 py-2 flex justify-between items-center h-[78px] text-white
+      ${
+        isScrolled
+          ? 'bg-fucsia_Custom-translucent backdrop-blur-lg'
+          : 'bg-fucsia_Custom backdrop-blur-none'
+      }
+      shadow-sm transition-all duration-300`}
     >
       <div className="flex items-center justify-between w-full">
         <a href="/" className="w-12 lg:w-14 flex items-center">

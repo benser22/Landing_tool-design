@@ -9,12 +9,14 @@ export default {
         'blue-light_Custom': '#0284C7',
         'blue-gray_Custom': '#0F172A',
         'blue-lightgray_Custom': '#94A3B8',
+        'fucsia_Custom-translucent': 'rgba(112, 26, 117, 0.5)',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
       },
       backgroundImage: {
         'hero-pattern': "url('/bgHero.png')",
+        'products-pattern': "url('/bgProducts.png')",
       },
     },
   },
