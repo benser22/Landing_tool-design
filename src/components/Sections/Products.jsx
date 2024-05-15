@@ -4,7 +4,7 @@ function Products() {
   return (
     <div className="sm:py-20 flex flex-col items-center justify-start space-y-2 bg-products-pattern bg-cover p-4">
       <section id="products">
-        <div className="flex flex-col-reverse sm:flex-row items-center justify-center p-4 w-full">
+        <div className="flex flex-col-reverse sm:flex-row items-center justify-center sm:gap-12 p-4 w-full">
           <div className="p-4 flex items-center gap-4">
             <img
               src={data['section-products'].pic1.url}
@@ -18,10 +18,10 @@ function Products() {
             />
           </div>
           <div className="text-center sm:text-start sm:max-w-[30vw]">
-            <p className="font-bold text-xl sm:text-2xl sm:mb-2 ShadowText">
+            <p className="font-bold text-xl sm:text-3xl sm:mb-4 ShadowText">
               {data['section-products'].title}
             </p>
-            <p className="text-[14px] sm:text-md ShadowText">
+            <p className="text-[14px] sm:text-md ShadowText sm:leading-8">
               {data['section-products'].paragraph}
             </p>
           </div>

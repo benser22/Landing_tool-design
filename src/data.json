@@ -100,7 +100,13 @@
     "title": "Efficient collaboration",
     "paragraph": "Mauris consequat, cursus pharetra et, habitasse rhoncus quis odio ac. In et dolor eu donec maecenas nulla. Cum sed orci, sit pellentesque quisque feugiat cras ullamcorper."
   },
-  "section-overview": {},
+  "section-solutions": {
+    "pic": { "url": "/solutions/pic.png", "alt": "image 1" },
+    "title": "Work from anywhere",
+    "paragraph": "In et dolor eu donec maecenas nulla. Cum sed orci, sit pellentesque quisque feugiat cras ullamcorper. Ultrices in amet, ullamcorper non viverra a, neque orci.",
+    "button1": { "url": "/solutions/button1.png", "alt": "button apple" },
+    "button2": { "url": "/solutions/button2.png", "alt": "button google" }
+  },
   "section-future": {},
   "section-last": {},
   "section-contact": {},
