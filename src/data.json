@@ -107,7 +107,11 @@
     "button1": { "url": "/solutions/button1.png", "alt": "button apple" },
     "button2": { "url": "/solutions/button2.png", "alt": "button google" }
   },
-  "section-future": {},
+  "section-demo": {
+    "title": "All the tech & design tools combined",
+    "subtitle": "Turpis purus, imperdiet integer amet, eu.",
+    "button": "Request Demo"
+  },
   "section-last": {},
   "section-contact": {},
   "section-footer": {},
