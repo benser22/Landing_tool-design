@@ -188,13 +188,6 @@
       }
     ]
   },
-  "section-contact": {},
-  "section-footer": {},
-  "logo": {
-    "url": "Logo.png",
-    "alt": "logo image",
-    "text": "protech"
-  },
   "section-posts": {
     "title": "The features you were looking for",
     "cards": [
@@ -241,6 +234,49 @@
         "link": "https://www.blogger.com/"
       }
     ]
+  },
+  "section-project": {
+    "title": "Technology design articles",
+    "subtitle": "Felis, semper ullamcorper sed pretium tristique vulputate semper massa ultrices. Integer orci gravida blandit amet.",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Title",
+        "subttile": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+        "action": {
+          "text": "Read article",
+          "url": "https://www.blogger.com/"
+        },
+        "image": { "url": "/project/card1.png", "alt": "card picture" }
+      },
+      {
+        "id": 2,
+        "title": "Title",
+        "subttile": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+        "action": {
+          "text": "Read article",
+          "url": "https://www.blogger.com/"
+        },
+        "image": { "url": "/project/card2.png", "alt": "card picture" }
+      },
+      {
+        "id": 3,
+        "title": "Title",
+        "subttile": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+        "action": {
+          "text": "Read article",
+          "url": "https://www.blogger.com/"
+        },
+        "image": { "url": "/project/card3.png", "alt": "card picture" }
+      }
+    ]
+  },
+  "section-contact": {},
+  "section-footer": {},
+  "logo": {
+    "url": "Logo.png",
+    "alt": "logo image",
+    "text": "protech"
   },
 
   "logo-color": {

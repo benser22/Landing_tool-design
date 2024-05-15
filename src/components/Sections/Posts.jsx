@@ -15,7 +15,7 @@ function Posts() {
                   <img
                     src={card.image.url}
                     alt={card.image.alt}
-                    className="object-cover w-[90vw] sm:w-[45vw] md:w-[30vw] max-w-[400px] h-[200px] rounded-xl mx-auto"
+                    className="object-cover w-[90vw] sm:w-[45vw] md:w-[30vw] max-w-[400px] h-[200px] rounded-xl mx-auto shadow-sm shadow-blue-gray_Custom"
                   />
                   <div className="flex flex-col px-2 mt-4 w-full break:w-4/5 break2:w-full md:w-full md:px-0 mx-auto">
                     <p className="font-bold">{card.title}</p>
