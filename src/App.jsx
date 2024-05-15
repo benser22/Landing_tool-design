@@ -7,6 +7,7 @@ import Products from './components/Sections/Products';
 import Solutions from './components/Sections/Solutions';
 import Demo from './components/Sections/Demo';
 import Resources from './components/Sections/Resources';
+import Testimonials from './components/Sections/Testimonials';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Products />
         <Solutions />
         <Demo />
+        <Resources />
+        <Testimonials />
         <Resources />
       </Layout>
       <Footer />

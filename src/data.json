@@ -23,21 +23,28 @@
         "alt": "icon solutions"
       },
       {
-        "id": 6,
+        "id": 4,
         "text": "Resources",
         "href": "resources",
         "icon": "/icons/resources.png",
         "alt": "icon resources"
       },
       {
-        "id": 4,
-        "text": "Pricing",
-        "href": "pricing",
-        "icon": "/icons/pricings.png",
-        "alt": "icon pricing"
+        "id": 5,
+        "text": "Testimonials",
+        "href": "testimonials",
+        "icon": "/icons/testimonials.png",
+        "alt": "icon testimonials"
       },
       {
-        "id": 5,
+        "id": 6,
+        "text": "Posts",
+        "href": "posts",
+        "icon": "/icons/about.png",
+        "alt": "icon posts"
+      },
+      {
+        "id": 7,
         "text": "Project",
         "href": "project",
         "icon": "/icons/project.png",
@@ -137,6 +144,47 @@
         "subtitle": "Elit purus magna donec mattis amet, leo varius sed. Ut metus sed convallis.",
         "icon": "/resources/Icon3.png",
         "alt": "icon image"
+      }
+    ]
+  },
+  "section-testimonials": {
+    "bg": {
+      "url": "/testimonials/bgTestimonials.png",
+      "alt": "bg testimonials"
+    },
+    "title": "Let’s See What Our Clients Says",
+    "clients": [
+      {
+        "id": 1,
+        "name": "Brooklyn Simmons",
+        "role": "Nursing Assistant",
+        "paragraph": "Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh in purus sit convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse commodo.",
+        "image": "/testimonials/picture.jpg",
+        "alt": "image client"
+      },
+      {
+        "id": 2,
+        "name": "Steve Henderson",
+        "role": "Mathematics Teacher",
+        "paragraph": "Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh in purus sit convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse commodo.",
+        "image": "/testimonials/picture2.jpg",
+        "alt": "image client"
+      },
+      {
+        "id": 3,
+        "name": "Lorena Ramos",
+        "role": "Software Engineer",
+        "paragraph": "Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh in purus sit convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse commodo.",
+        "image": "/testimonials/picture3.jpg",
+        "alt": "image client"
+      },
+      {
+        "id": 4,
+        "name": "Robert Smith",
+        "role": "Executive Chef",
+        "paragraph": "Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis est velit in. Nibh in purus sit convallis phasellus ut. At vel erat ultricies commodo. Neque suspendisse a habitasse commodo.",
+        "image": "/testimonials/picture4.jpg",
+        "alt": "image client"
       }
     ]
   },

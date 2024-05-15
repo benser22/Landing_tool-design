@@ -14,8 +14,8 @@ const MenuMobile = ({ isOpen, onClick }) => {
         className={`fixed left-0 top-0 px-4 py-5 h-screen w-[60vw] flex flex-col gap-4 
         items-start text-white bg-fucsia_Custom shadow-md shadow-white`}
       >
-        <div className="flex flex-col gap-4 py-4">
-          <a href="/" className="w-8 flex items-center ml-4">
+        <div className="flex flex-col gap-4 py-4 justify-center items-center">
+          <a href="/" className="w-12 flex items-center justify-center">
             <img
               src={data.logo.url}
               alt={data.logo.alt}

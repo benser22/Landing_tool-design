@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed z-[98] top-0 left-0 w-screen px-8 md:px-10 py-2 flex justify-between items-center h-[78px] text-white
+      className={`fixed z-[98] top-0 left-0 w-screen px-8 xl:px-12 py-2 flex justify-between items-center h-[78px] text-white
       ${
         isScrolled
           ? 'bg-fucsia_Custom-translucent backdrop-blur-lg'
@@ -47,7 +47,7 @@ const Navbar = () => {
             {data.logo.text}
           </p>
         </a>
-        <div className="hidden sm:flex items-center justify-between space-x-6 sm:space-x-3 md:space-x-6">
+        <div className="hidden sm:flex items-center justify-between gap-2 md:gap-6 xl:gap-8 ml-6">
           {data['section-header'].navbar.map((item, index) => (
             <Link
               to={item.href}

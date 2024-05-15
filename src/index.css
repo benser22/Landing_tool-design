@@ -40,3 +40,19 @@ button:active {
 .ShadowText {
   text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
+
+.slick-arrow.slick-next {
+  display: none !important;
+}
+
+.arrow-left {
+  color: white;
+  cursor: pointer;
+  width: 48px;
+}
+
+.arrow-right {
+  color: white;
+  cursor: pointer;
+  width: 48px;
+}
