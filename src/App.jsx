@@ -10,6 +10,7 @@ import Resources from './components/Sections/Resources';
 import Testimonials from './components/Sections/Testimonials';
 import Posts from './components/Sections/Posts';
 import Project from './components/Sections/Project';
+import Contact from './components/Sections/Contact';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Testimonials />
         <Posts />
         <Project />
+        <Contact />
       </Layout>
       <Footer />
     </main>
