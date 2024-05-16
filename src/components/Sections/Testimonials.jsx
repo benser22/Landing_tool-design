@@ -81,7 +81,7 @@ const Testimonials = () => {
                     <img
                       src={testimonial.image}
                       alt={testimonial.name}
-                      className="max-w-[300px] max-h-[250px] min-h-[250px] object-cover rounded-xl border-2 border-blue-gray_Custom"
+                      className="w-[80vw] sm:w-full max-w-[300px] max-h-[250px] min-h-[250px] object-cover rounded-xl border-2 border-blue-gray_Custom"
                     />
                   </div>
                 </div>

@@ -277,7 +277,49 @@
     "button": "Contact Us",
     "error": "Please enter a valid email address."
   },
-  "section-footer": {},
+  "section-footer": {
+    "rights": "@ 2023 Protech, Inc. All rights reserved.",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "contact": "Contact",
+    "links": [
+      {
+        "id": 1,
+        "text": "Home",
+        "href": "home"
+      },
+      {
+        "id": 2,
+        "text": "Products",
+        "href": "products"
+      },
+      {
+        "id": 3,
+        "text": "Solutions",
+        "href": "solutions"
+      },
+      {
+        "id": 4,
+        "text": "Resources",
+        "href": "resources"
+      },
+      {
+        "id": 5,
+        "text": "Testimonials",
+        "href": "testimonials"
+      },
+      {
+        "id": 6,
+        "text": "Posts",
+        "href": "posts"
+      },
+      {
+        "id": 6,
+        "text": "Project",
+        "href": "project"
+      }
+    ]
+  },
   "logo": {
     "url": "Logo.png",
     "alt": "logo image",
@@ -287,7 +329,7 @@
   "logo-color": {
     "url": "Logo-color.png",
     "alt": "logo image",
-    "text": "TextoLogo"
+    "text": "protech"
   },
   "contact": {
     "email": "tool-design@gmail.com"
