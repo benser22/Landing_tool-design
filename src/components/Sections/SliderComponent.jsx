@@ -51,7 +51,7 @@ function SliderComponent() {
                   height={64}
                   src={logo.url}
                   alt={logo.alt}
-                  className="shadow-only-painted px-12"
+                  className="px-12"
                 />
               </div>
             </div>
