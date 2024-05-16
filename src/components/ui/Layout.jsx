@@ -1,4 +1,4 @@
 const Layout = ({ children }) => {
-  return <div className="max-w-[1440px] mx-auto">{children}</div>;
+  return <div className="max-w-[1440px] mx-auto bg-white">{children}</div>;
 };
 export default Layout;

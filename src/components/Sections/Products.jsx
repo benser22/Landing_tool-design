@@ -2,7 +2,7 @@ import data from '../../data.json';
 
 function Products() {
   return (
-    <div className="sm:py-20 flex flex-col items-center justify-start space-y-2 bg-products-pattern bg-cover p-4">
+    <div className="sm:py-20 flex flex-col items-center justify-start space-y-2 bg-products-pattern bg-cover p-4 text-blue-gray_Custom">
       <section id="products">
         <div className="flex flex-col-reverse sm:flex-row items-center justify-center sm:gap-12 p-4 w-full">
           <div className="p-4 flex items-center gap-4">

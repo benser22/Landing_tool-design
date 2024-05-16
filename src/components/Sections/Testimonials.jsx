@@ -52,7 +52,7 @@ const Testimonials = () => {
   return (
     <Layout>
       <section id="testimonials">
-        <div className="px-4 py-10 bg-amber_Custom">
+        <div className="px-4 py-10 bg-amber_Custom text-blue-gray_Custom">
           <div className="mx-auto mt-2 relative">
             <img
               src={data['section-testimonials'].bg.url}

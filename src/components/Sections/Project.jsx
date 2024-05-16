@@ -39,7 +39,7 @@ const Project = () => {
         </p>
       </div>
       <section id="project">
-        <Slider {...settings} className="mx-auto mt-8">
+        <Slider {...settings} className="mx-auto mt-8 text-blue-gray_Custom">
           {data['section-project'].cards.map((card, index) => (
             <div
               key={index}
