@@ -28,41 +28,41 @@ const Project = () => {
   };
 
   return (
-    <div className="py-12 px-4">
+    <div className="pb-12 sm:pt-12 pt-0 px-4">
       <div className="text-center text-blue-gray_Custom">
-        <p className="font-bold text-xl sm:text-4xl sm:mb-4 ShadowText">
-          {data['section-project'].title}
-        </p>
+        <section id="project">
+          <p className="font-bold text-xl pt-4 sm:text-4xl sm:mb-4 ShadowText">
+            {data['section-project'].title}
+          </p>
+        </section>
         <p className="text-[14px] sm:text-md ShadowText sm:leading-8 font-[500] px-4">
           {data['section-project'].subtitle}
         </p>
       </div>
-      <section id="project">
-        <Slider {...settings} className="mx-auto mt-8 text-blue-gray_Custom">
-          {data['section-project'].cards.map((card, index) => (
-            <div
-              key={index}
-              className="border-2 border-blue-gray_Custom rounded-xl sm:max-w-[85%] mb-4"
-            >
-              <img
-                src={card.image.url}
-                alt={card.image.alt}
-                className="w-full max-h-40 object-cover rounded-t-xl"
-              />
-              <div className="px-4 mt-4 text-left">
-                <h2 className="text-xl font-bold">{card.title}</h2>
-                <p className="text-md mt-2">{card.subttile}</p>
-                <a href={card.action.url} target="_blank">
-                  <div className="flex items-center justify-start gap-4 py-4 hover:text-blue-light_Custom">
-                    <p className="">{card.action.text}</p>
-                    <IoIosArrowRoundForward size={30} />
-                  </div>
-                </a>
-              </div>
+      <Slider {...settings} className="mx-auto mt-8 text-blue-gray_Custom">
+        {data['section-project'].cards.map((card, index) => (
+          <div
+            key={index}
+            className="border-2 border-blue-gray_Custom rounded-xl sm:max-w-[85%] mb-4"
+          >
+            <img
+              src={card.image.url}
+              alt={card.image.alt}
+              className="w-full max-h-40 object-cover rounded-t-xl"
+            />
+            <div className="px-4 mt-4 text-left">
+              <h2 className="text-xl font-bold">{card.title}</h2>
+              <p className="text-md mt-2">{card.subttile}</p>
+              <a href={card.action.url} target="_blank">
+                <div className="flex items-center justify-start gap-4 py-4 hover:text-blue-light_Custom">
+                  <p className="">{card.action.text}</p>
+                  <IoIosArrowRoundForward size={30} />
+                </div>
+              </a>
             </div>
-          ))}
-        </Slider>
-      </section>
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 };

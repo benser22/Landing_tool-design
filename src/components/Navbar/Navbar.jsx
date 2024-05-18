@@ -34,7 +34,7 @@ const Navbar = () => {
           ? 'bg-fucsia_Custom-translucent backdrop-blur-lg'
           : 'bg-fucsia_Custom backdrop-blur-none'
       }
-      shadow-sm transition-all duration-300`}
+      shadow-none transition-all duration-300`}
     >
       <div className="flex items-center justify-between w-full">
         <a
