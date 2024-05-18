@@ -6,15 +6,15 @@ function Products() {
       <section id="products">
         <div className="flex flex-col-reverse sm:flex-row items-center justify-center sm:gap-12 p-4 w-full">
           <div className="p-4 flex items-center gap-4">
-            <img
+            {/* <img
               src={data['section-products'].pic1.url}
               alt={data['section-products'].pic1.alt}
               className="object-cover max-w-[30vw] sm:h-[25vw] sm:max-w-[200px] rounded-md border-2 border-blue-gray_Custom"
-            />
+            /> */}
             <img
               src={data['section-products'].pic2.url}
               alt={data['section-products'].pic2.alt}
-              className="object-cover max-w-[45vw] sm:h-[20vw] sm:w-[30vw] sm:max-w-[300px] rounded-md border-2 border-blue-gray_Custom"
+              className="object-cover w-[70vw] h-[50vw] sm:h-[35vw] xl:max-w-[600px] xl:max-h-[350px] rounded-lg border-2 border-blue-gray_Custom"
             />
           </div>
           <div className="text-center sm:text-start sm:max-w-[30vw]">

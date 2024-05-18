@@ -90,7 +90,7 @@ const Navbar = () => {
         </div>
       </div>
       <button
-        className="text-2xl cursor-pointer z-[99] text-secondary flex items-center justify-center sm:hidden"
+        className="text-2xl cursor-pointer z-[99] text-white flex items-center justify-center sm:hidden"
         onClick={handleIsOpen}
       >
         {isOpen ? <BsXLg /> : <BsJustify />}
