@@ -8,17 +8,15 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center w-[95vw] mx-auto text-sm py-10 gap-4">
           <a
             href="/"
-            className="flex items-center hover:text-blue-light_Custom"
+            className="flex items-center hover:text-blue-light_Custom cursor-pointer"
           >
-            <div className="flex items-center gap-2 w-20">
+            <div className="flex items-center gap-2 w-max">
               <img
                 src={data['logo-color'].url}
                 alt={data['logo-color'].alt}
-                className="w-2/5 cursor-pointer mr-2"
-              ></img>
-              <p className="font-bold text-xl lg:text-[30px]">
-                {data['logo-color'].text}
-              </p>
+                className="w-[24px] h-[24px] sm:w-[32px] sm:h-[32px] cursor-pointer mr-2"
+              />
+              <p className="font-bold text-xl">{data['logo-color'].text}</p>
             </div>
           </a>
           <div className="w-full flex items-center justify-center md:justify-end gap-4 flex-wrap">
@@ -58,7 +56,10 @@ function Footer() {
             <p className="hover:text-blue-light_Custom cursor-pointer">
               {data['section-footer'].privacy}
             </p>
-            <a href={`mailto:${data.contact.email}`} className="cursor-pointer">
+            <a
+              href={`mailto:${data.contact.email}?subject=Contact`}
+              className="cursor-pointer"
+            >
               <p className="hover:text-blue-light_Custom">
                 {data['section-footer'].contact}
               </p>

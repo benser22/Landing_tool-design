@@ -1,5 +1,6 @@
 import { Link } from 'react-scroll';
 import data from '../../data.json';
+import PropTypes from 'prop-types';
 
 const MenuMobile = ({ isOpen, onClick }) => {
   return (
@@ -14,16 +15,17 @@ const MenuMobile = ({ isOpen, onClick }) => {
         className={`fixed left-0 top-0 px-4 py-5 h-screen w-[60vw] flex flex-col gap-4 
         items-start text-white bg-fucsia_Custom shadow-md shadow-white`}
       >
-        <div className="flex flex-col gap-4 py-4 justify-center items-center">
-          <a href="/" className="w-12 flex items-center justify-center">
+        <div className="flex flex-col space-y-4 mt-4 items-center justify-between w-full">
+          <a
+            href="/"
+            className="flex items-center active:text-amber_Custom cursor-pointer"
+          >
             <img
               src={data.logo.url}
               alt={data.logo.alt}
-              className="w-2/3 cursor-pointer mr-2"
-            ></img>
-            <p className="hover:text-amber_Custom text-xl font-bold">
-              {data.logo.text}
-            </p>
+              className="w-[32px] h-[32px] sm:w-[32px] sm:h-[32px] mr-2"
+            />
+            <p className="text-xl font-bold">{data.logo.text}</p>
           </a>
           <hr className="w-[50vw]"></hr>
         </div>
@@ -63,7 +65,7 @@ const MenuMobile = ({ isOpen, onClick }) => {
           </a>
 
           <a
-            href={`mailto:${data.contact.email}`}
+            href={`mailto:${data.contact.email}?subject=Contact`}
             className="flex items-center gap-4 cursor-pointer"
           >
             <img
@@ -80,6 +82,11 @@ const MenuMobile = ({ isOpen, onClick }) => {
       </ul>
     </div>
   );
+};
+
+MenuMobile.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 export default MenuMobile;

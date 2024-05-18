@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import useNav from '../../hooks/useNav';
 import MenuMobile from './MenuMobile';
 import data from '../../data.json';
@@ -37,15 +37,16 @@ const Navbar = () => {
       shadow-sm transition-all duration-300`}
     >
       <div className="flex items-center justify-between w-full">
-        <a href="/" className="w-12 lg:w-14 flex items-center">
+        <a
+          href="/"
+          className="flex items-center hover:text-amber_Custom cursor-pointer"
+        >
           <img
             src={data.logo.url}
             alt={data.logo.alt}
-            className="w-2/5 cursor-pointer mr-2"
-          ></img>
-          <p className="hover:text-amber_Custom font-bold text-xl lg:text-[30px]">
-            {data.logo.text}
-          </p>
+            className="w-[24px] h-[24px] sm:w-[32px] sm:h-[32px] mr-2"
+          />
+          <p className="font-bold text-xl">{data.logo.text}</p>
         </a>
         <div className="hidden sm:flex items-center justify-between gap-2 md:gap-6 xl:gap-8 ml-6">
           {data['section-header'].navbar.map((item, index) => (
@@ -78,7 +79,10 @@ const Navbar = () => {
               {data['section-header'].blog.text}
             </p>
           </a>
-          <a href={`mailto:${data.contact.email}`} className="cursor-pointer">
+          <a
+            href={`mailto:${data.contact.email}?subject=Contact`}
+            className="cursor-pointer"
+          >
             <p className="text-md  hover:text-amber_Custom sm:text-[12px] lg:text-[16px] w-max">
               {data['section-header'].contact.text}
             </p>

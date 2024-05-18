@@ -1,15 +1,13 @@
-import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
-
 import data from '../../data.json';
 import Layout from '../ui/Layout';
+import PropTypes from 'prop-types';
 
 const Testimonials = () => {
   const testimonials = data['section-testimonials'].clients;
-  const title = data['section-testimonials'].title;
 
   const CustomNextArrow = (props) => {
     const { onClick } = props;
@@ -92,6 +90,10 @@ const Testimonials = () => {
       </section>
     </Layout>
   );
+};
+
+Testimonials.propTypes = {
+  onClick: PropTypes.func,
 };
 
 export default Testimonials;
