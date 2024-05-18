@@ -61,7 +61,7 @@
     "blog": {
       "id": 8,
       "text": "Blog",
-      "href": "https://blog.oriontechdigital.com/",
+      "href": "https://www.blogger.com/",
       "icon": "/icons/blog.png",
       "alt": "icon blog"
     },
@@ -196,42 +196,42 @@
         "title": "Pellentesque turpis vestibulum",
         "paragraph": "Ullamcorper enim, diam eros sed et vitae sit. Platea porttitor consequat, lorem in arcu et.",
         "image": { "url": "/posts/picture.webp", "alt": "post img" },
-        "link": "https://blog.oriontechdigital.com/"
+        "link": "https://www.blogger.com/"
       },
       {
         "id": 2,
         "title": "Tincidunt quisque",
         "paragraph": "Blandit ut tortor non, imperdiet. Morbi quam facilisis a nec tortor.",
         "image": { "url": "/posts/picture2.webp", "alt": "post img" },
-        "link": "https://blog.oriontechdigital.com/"
+        "link": "https://www.blogger.com/"
       },
       {
         "id": 3,
         "title": "Tincidunt magna diam",
         "paragraph": "Massa mi pharetra viverra risus ornare sit. Viverra tortor, nulla et tellus, nunc.",
         "image": { "url": "/posts/picture3.webp", "alt": "post img" },
-        "link": "https://blog.oriontechdigital.com/"
+        "link": "https://www.blogger.com/"
       },
       {
         "id": 4,
         "title": "Purus habitasse",
         "paragraph": "Massa arcu ut id risus et. Neque mauris sagittis cursus tincidunt egestas faucibus amet adipiscing scelerisque.",
         "image": { "url": "/posts/picture4.webp", "alt": "post img" },
-        "link": "https://blog.oriontechdigital.com/"
+        "link": "https://www.blogger.com/"
       },
       {
         "id": 5,
         "title": "Dictum elementum",
         "paragraph": "Ullamcorper aliquam maecenas sapien sapien tempus tincidunt urna tempus. Dignissim ut felis a dui a massa risus.",
         "image": { "url": "/posts/picture5.webp", "alt": "post img" },
-        "link": "https://blog.oriontechdigital.com/"
+        "link": "https://www.blogger.com/"
       },
       {
         "id": 6,
         "title": "Semper vulputate ut",
         "paragraph": "Tortor arcu eget nisi neque, in nunc metus. Posuere in egestas pharetra euismod commodo vitae consectetur.",
         "image": { "url": "/posts/picture6.webp", "alt": "post img" },
-        "link": "https://blog.oriontechdigital.com/"
+        "link": "https://www.blogger.com/"
       }
     ]
   },
@@ -245,7 +245,7 @@
         "subttile": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
         "action": {
           "text": "Read article",
-          "url": "https://blog.oriontechdigital.com/"
+          "url": "https://www.blogger.com/"
         },
         "image": { "url": "/project/card1.png", "alt": "card picture" }
       },
@@ -255,7 +255,7 @@
         "subttile": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
         "action": {
           "text": "Read article",
-          "url": "https://blog.oriontechdigital.com/"
+          "url": "https://www.blogger.com/"
         },
         "image": { "url": "/project/card2.png", "alt": "card picture" }
       },
@@ -265,7 +265,7 @@
         "subttile": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
         "action": {
           "text": "Read article",
-          "url": "https://blog.oriontechdigital.com/"
+          "url": "https://www.blogger.com/"
         },
         "image": { "url": "/project/card3.png", "alt": "card picture" }
       }
@@ -278,7 +278,7 @@
     "error": "Please enter a valid email address."
   },
   "section-footer": {
-    "rights": "@ 2023 OrionTech, Inc. All rights reserved.",
+    "rights": "@ 2023 Creant-Ia, Inc. All rights reserved.",
     "terms": "Terms",
     "privacy": "Privacy",
     "contact": "Contact",
@@ -323,21 +323,21 @@
   "logo": {
     "url": "Logo.png",
     "alt": "logo image",
-    "text": "OrionTech"
+    "text": "Creant-Ia"
   },
 
   "logo-color": {
     "url": "Logo-color.png",
     "alt": "logo image",
-    "text": "OrionTech"
+    "text": "Creant-Ia"
   },
   "contact": {
-    "email": "oriontechdigital@gmail.com"
+    "email": "Creant-Iadigital@gmail.com"
   },
   "blog": {
     "icon": "https://res.cloudinary.com/djzp2k8gd/image/upload/v1714111452/drone_landing/blog/blog-icon.png",
     "title": "Blog",
     "text": "Visit our blog!",
-    "url": "https://blog.oriontechdigital.com/"
+    "url": "https://www.blogger.com/"
   }
 }
