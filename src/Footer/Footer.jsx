@@ -14,7 +14,7 @@ function Footer() {
               <img
                 src={data['logo-color'].url}
                 alt={data['logo-color'].alt}
-                className="w-[24px] h-[24px] sm:w-[32px] sm:h-[32px] cursor-pointer mr-2"
+                className="w-[24px] h-[24px] sm:w-[32px] sm:h-[32px] cursor-pointer"
               />
               <p className="font-bold text-xl">{data['logo-color'].text}</p>
             </div>
