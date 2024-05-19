@@ -18,7 +18,7 @@ function Contact() {
 
   const handleButtonClick = () => {
     if (isValidEmail && email) {
-      window.location.href = `mailto:${data.contact.email}?subject=Contacto de un usuario&body=${email}: Se ha contactado con ud.`;
+      window.location.href = `mailto:${data.contact.email}?subject=Contact of a user&body=${email}: You have been contacted`;
       setEmail('');
     } else {
       console.log(data['section-contact'].error);

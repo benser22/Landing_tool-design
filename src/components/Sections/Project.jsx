@@ -43,7 +43,7 @@ const Project = () => {
         {data['section-project'].cards.map((card, index) => (
           <div
             key={index}
-            className="border-2 border-blue-gray_Custom rounded-xl sm:max-w-[85%] mb-4"
+            className="border-2 border-blue-gray_Custom rounded-xl sm:max-w-[98%] mb-4"
           >
             <img
               src={card.image.url}
